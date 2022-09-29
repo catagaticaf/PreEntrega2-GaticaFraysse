@@ -1,0 +1,644 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(./fonts/Montserrat-Regular.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(./fonts/Montserrat-ExtraLight.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(./fonts/Montserrat-SemiBold.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 600;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+}
+/* inicio estilos mobile */
+@media screen and (max-width: 768px) {
+  /* inicio estilos main header  */
+  .main__header {
+    background-image: url(./img/miproyecto43.jpg);
+    color: #224b0c;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.6rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main__header__logo {
+    width: 120px;
+    height: 120px;
+    padding-top: 0px;
+  }
+  /* fin estilos main header  */
+
+  /* inicio estilos contenido principal  */
+  .main__principal {
+    min-height: 100%;
+    margin: 0;
+  }
+  .cards__container {
+    padding: 10px 0px 0px 0px;
+  }
+  .background_inicio {
+    background-image: url(./img/miproyecto17.jpg);
+    width: 100vw;
+    height: 350px;
+    padding: 100px 0px 150px 0px;
+  }
+  .background_inicio__main_title {
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    text-shadow: 20px 15px 7px rgba(73, 72, 72, 0.934);
+  }
+  .background_inicio__subtitle {
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 20px 15px 7px rgba(73, 72, 72, 0.934);
+  }
+  .background_inicio__breve_descripcion {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .card1 {
+    margin: 30px 0px;
+    background: linear-gradient(to right, white, #ecf3e1);
+    display: flex;
+    align-items: space-between;
+    height: 300px;
+    width: 100%;
+  }
+  .card__subtitulo {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    color: #224b0c;
+    left: 250px;
+    bottom: 500px;
+    padding-top: 30px;
+  }
+  .card__imagen {
+    padding: 40px 20px;
+    height: 300px;
+  }
+  .card__parrafo {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.6rem;
+    text-align: justify;
+    width: 180px;
+    bottom: 50px;
+    padding-top: 10px;
+  }
+  .card2 {
+    background: linear-gradient(to left, white, #ecf3e1);
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 300px;
+  }
+  .card2__imagen {
+    padding: 40px 30px 40px 10px;
+    left: 700px;
+    height: 300px;
+  }
+  .card2__contenido {
+    justify-content: center;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+  .card2__subtitulo {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    color: #224b0c;
+    right: 250px;
+    bottom: 470px;
+    padding-top: 30px;
+  }
+  .card2__parrafo {
+    width: 180px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.6rem;
+    text-align: justify;
+    align-items: center;
+    padding-top: 10px;
+  }
+  .card3 {
+    margin: 30px 50px 0px 0px;
+    background: linear-gradient(to right, white, #ecf3e1);
+    display: flex;
+    align-items: space-between;
+    height: 300px;
+    width: 100%;
+  }
+  .card3__imagen {
+    padding: 40px 20px;
+    height: 300px;
+  }
+  .card3__contenido {
+    padding-left: 10px;
+  }
+  .card3__subtitulo {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    color: #224b0c;
+    left: 250px;
+    bottom: 500px;
+    padding-top: 40px;
+  }
+  .card3__parrafo {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.6rem;
+    text-align: justify;
+    width: 180px;
+    padding-top: 10px;
+  }
+  /* fin estilos contenido principal  */
+  /* inicio estilos footer  */
+  .footer {
+    background-image: url(./img/miproyecto43.jpg);
+    background-color: #c1d5a4;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    height: 450px;
+  }
+  .logo__footer {
+    margin-left: 20px;
+    width: 70px;
+    height: 70px;
+  }
+  .whatsapp {
+    margin: 20px;
+  }
+  .whatsapp {
+    margin: 20px;
+  }
+  .whatsapp__numero {
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+  }
+  .mail {
+    margin: 20px;
+  }
+  .mail__direccion {
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  .instagram {
+    padding: 0px 0px 20px 20px;
+  }
+  .instagram__usuario {
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  /* fin estilos footer  */
+  .html {
+    height: 100%;
+  }
+  /* estilos recetarios */
+  .recetarios__encabezado {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    color: #224b0c;
+    padding-top: 50px;
+  }
+  .recetarios__main {
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .recetarios__animaciones {
+    padding-top: 50px;
+    text-align: center;
+    animation-name: float;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 5s;
+  }
+  /* fin estilos recetarios */
+  /* inicio estilos sobre mi */
+  .sobre__mi {
+    display: flex;
+    justify-content: space-around;
+  }
+  .sobre__mi__wrapper {
+    padding-top: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: grid;
+    grid-template-areas:
+      "foto info-1"
+      "foto info-2"
+      "sobremi info-3";
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: repeat(3, 1fr);
+    width: 80%;
+  }
+  .sobre__mi__foto {
+    grid-area: foto;
+  }
+  .sobre__mi__estudios {
+    grid-area: sobremi;
+    align-self: center;
+  }
+  .sobre__mi__info1 {
+    grid-area: info-1;
+  }
+  .sobre__mi__info2 {
+    grid-area: info-2;
+  }
+  .sobre__mi__info3 {
+    grid-area: info-3;
+  }
+}
+
+/* inicio estilos desktop */
+@media (min-width: 992px) {
+  .fixed {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+  }
+  /* inicio estilos main header  */
+  .main__header {
+    background-image: url(./img/miproyecto43.jpg);
+    color: #224b0c;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.8rem;
+    position: fixed;
+    width: 100%;
+    height: 120px;
+    display: grid;
+    grid-template-columns: 200px auto;
+    justify-content: space-around;
+    align-items: center;
+  }
+.navbar-expand-lg{
+  font-size: 1rem;
+}
+  .main__header__logo {
+    width: 120px;
+    height: 120px;
+    padding-top: 0px;
+    padding-left: 10px;
+  }
+  /* fin estilos main header  */
+  /* inicio estilos contenido principal  */
+  .main__principal {
+    min-height: 100%;
+  }
+  .cards__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .background_inicio {
+    background-image: url(./img/miproyecto17.jpg);
+    width: 100%;
+    height: 600px;
+    padding: 250px 0px 250px 0px;
+  }
+  .background_inicio__main_title {
+    font-size: 5rem;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    text-shadow: 20px 15px 7px grey;
+  }
+  .background_inicio__main_title:hover {
+    transform: translate(0px, -20px);
+    transition: all 2s;
+  }
+  .background_inicio__subtitle {
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 20px 15px 7px grey;
+  }
+  .background_inicio__subtitle:hover {
+    transform: translate(0px, -20px);
+    transition: all 2s;
+  }
+  .background_inicio__breve_descripcion {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    text-shadow: 20px 15px 7px grey;
+  }
+  .card1 {
+    margin: 30px 30px;
+    background: linear-gradient(to right, white, #ecf3e1);
+    display: flex;
+    align-items: space-between;
+  }
+  .card__imagen {
+    padding: 40px;
+    width: 400px;
+  }
+  .card__contenido {
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-top: 50px;
+  }
+  .card__subtitulo {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #224b0c;
+    left: 250px;
+    bottom: 500px;
+  }
+  .card__parrafo {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    text-align: justify;
+    width: 500px;
+    bottom: 200px;
+    right: 100px;
+  }
+  .card2 {
+    margin: 30px 30px;
+    background: linear-gradient(to left, white, #ecf3e1);
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .card2__imagen {
+    padding: 40px;
+    left: 700px;
+    width: 400px;
+  }
+  .card2__contenido {
+    justify-content: center;
+    padding-right: 100px;
+    padding-top: 50px;
+  }
+  .card2__subtitulo {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #224b0c;
+    right: 250px;
+    bottom: 470px;
+  }
+  .card2__parrafo {
+    width: 500px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    text-align: justify;
+    right: 200px;
+    padding-top: 20px;
+  }
+  .card3 {
+    margin: 30px 30px;
+    background: linear-gradient(to right, white, #ecf3e1);
+    display: flex;
+  }
+  .card3__imagen {
+    padding: 40px;
+    width: 400px;
+  }
+  .card3__contenido {
+    padding-top: 50px;
+    padding-left: 100px;
+  }
+  .card3__subtitulo {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #224b0c;
+    left: 250px;
+    bottom: 500px;
+  }
+  .card3__parrafo {
+    width: 500px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    text-align: justify;
+    bottom: 100px;
+    right: 100px;
+    padding-top: 20px;
+  }
+  /* fin estilos contenido principal  */
+  /* inicio estilos footer  */
+  .footer {
+    background-image: url(./img/miproyecto43.jpg);
+    background-color: #c1d5a4;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+  }
+  .logo__footer {
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+  }
+  .whatsapp {
+    margin: 20px;
+  }
+  .whatsapp__numero {
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+  }
+  .mail {
+    margin: 20px;
+  }
+  .mail__direccion {
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  .instagram {
+    padding: 0px 0px 20px 20px;
+  }
+  .instagram__usuario {
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  /* fin estilos footer  */
+  .html {
+    height: 100%;
+  }
+  /* estilos recetarios */
+  .recetarios__encabezado {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 150px;
+    color: #c1d5a4;
+    text-shadow: 20px 15px 7px rgba(161, 161, 161, 0.579);
+  }
+  .recetarios__main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: space-around;
+    align-items: center;
+    color: #224b0c;
+  }
+  .card:hover {
+    transform: scale(1.2);
+    background-color: white;
+    border-radius: 30px;
+    transition: all 1s;
+  }
+  .card{
+    text-align: center;
+    padding: 10px;
+  }
+
+  .recetario__2:hover {
+    transform: scale(1.2);
+    background-color: white;
+    border-radius: 30px;
+    transition: all 1s;
+  }
+  .recetario__3:hover {
+    transform: scale(1.2);
+    background-color: white;
+    border-radius: 30px;
+    transition: all 1s;
+  }
+  .recetario__4:hover {
+    transform: scale(1.2);
+    background-color: white;
+    border-radius: 30px;
+    transition: all 1s;
+  }
+  .recetario__5:hover {
+    transform: scale(1.2);
+    background-color: white;
+    border-radius: 30px;
+    transition: all 1s;
+  }
+  .recetario__6:hover {
+    transform: scale(1.2);
+    background-color: white;
+    border-radius: 30px;
+    transition: all 1s;
+  }
+  .recetario__7:hover {
+    transform: scale(1.2);
+    background-color: white;
+    border-radius: 30px;
+    transition: all 1s;
+  }
+  .recetario__8:hover {
+    transform: scale(1.2);
+    background-color: white;
+    border-radius: 30px;
+    transition: all 1s;
+  }
+  .recetario__9:hover {
+    transform: scale(1.2);
+    background-color: white;
+    border-radius: 30px;
+    transition: all 1s;
+  }
+  .recetarios__animaciones {
+    padding-top: 50px;
+    text-align: center;
+    animation-name: float;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 5s;
+  }
+  /* fin estilos recetarios */
+  /* inicio estilos sobre mi */
+  .sobre__mi {
+    display: flex;
+    justify-content: space-around;
+  }
+  .sobre__mi__wrapper {
+    padding-top: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: grid;
+    grid-template-areas:
+      "foto info-1"
+      "foto info-2"
+      "sobremi info-3";
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: repeat(3, 1fr);
+    width: 80%;
+  }
+  .sobre__mi__foto {
+    grid-area: foto;
+  }
+  .sobre__mi__estudios {
+    grid-area: sobremi;
+    align-self: center;
+  }
+  .sobre__mi__info1 {
+    grid-area: info-1;
+  }
+  .sobre__mi__info2 {
+    grid-area: info-2;
+  }
+  .sobre__mi__info3 {
+    grid-area: info-3;
+  }
+}
+/* inicio animaciones */
+@keyframes float {
+  0% {
+    transform: translate(-20px, -20px);
+  }
+  25% {
+    transform: translate(20px, -20px);
+  }
+  50% {
+    transform: translate(20px, 20px);
+  }
+  75% {
+    transform: translate(-20px, 20px);
+  }
+  100% {
+    transform: translate(-20px, -20px);
+  }
+}
